@@ -8,3 +8,10 @@ Attacker might be able to launch a DOS (denial of service) attack by crashing th
 1. Craft M3U media playlist file, used -> https://github.com/exploitone1/amarok-x86-setup-2.8.0/blob/master/test_big.m3u
 2. Open Amarok -> Play Media, and select crafted m3u file.
 3. Application start hogging processor to 100%.
+
+![](images/Screen%20Shot%202020-05-15%20at%206.02.09%20PM.png)
+
+4. PID is attched to WinDbg.
+
+![](images/Screen%20Shot%202020-05-15%20at%206.02.14%20PM.png)
+
